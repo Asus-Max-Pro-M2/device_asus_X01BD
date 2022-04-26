@@ -1,5 +1,14 @@
 # Device proprietary files - from UL-ASUS_X01BD-WW-17.2018.2012.434-user build, unless pinned
 
+# Audio hardware
+vendor/lib/hw/audio.primary.sdm660.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/libaudioalsa.so
+vendor/lib64/hw/audio.primary.sdm660.so
+vendor/lib64/libaudio_log_utils.so
+vendor/lib64/libaudioalsa.so
+vendor/lib64/libtinycompress.so
+
 # Audio ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
