@@ -5,7 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_X01BD.mk
+    $(LOCAL_DIR)/xdroid_X01BD.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_X01BD-userdebug
+    xdroid_X01BD-eng \
+    xdroid_X01BD-user \
+    xdroid_X01BD-userdebug
